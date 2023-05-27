@@ -30,9 +30,9 @@ INSERT INTO Sales_Order(
 SELECT * FROM Sales_Order;
 -- Extract year from the date values
 SELECT EXTRACT(YEAR FROM Order_Date) AS Order_year,
-		EXTRACT(MONTH FROM Order_Date) AS Order_month,
-        Extract(DAY FROM Order_Date) AS Order_day
-    , Customer_ID
+	EXTRACT(MONTH FROM Order_Date) AS Order_month,
+        Extract(DAY FROM Order_Date) AS Order_day,
+   	Customer_ID
 	FROM Sales_Order 
     WHERE Customer_ID BETWEEN 100 AND 104
 ;    
