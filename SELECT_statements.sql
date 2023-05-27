@@ -46,7 +46,7 @@ SELECT gross, duration FROM movie_metadata
 ;
 -- Aggrigation
 SELECT COUNT( DISTINCT movie_title) AS COUNT,
-	SUM(duration) AS total_duration,
+    SUM(duration) AS total_duration,
     AVG(duration) AS avg_duration,
     MAX(duration) AS max_duration,
     min( DISTINCT duration) AS min_duration
