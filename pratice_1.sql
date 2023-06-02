@@ -1,3 +1,4 @@
+CREATE DATABASE ddl_dml_PRATICE;
 USE ddl_dml_PRATICE;
 /*Q1). Write a SQL statement to create a simple table countries
 including columns country_id,country_name and region_id.*/
